@@ -1,0 +1,26 @@
+/* Navigation style */
+.title {
+  text-align: center;
+}
+ul {
+ list-style: none;
+ padding: 0;
+ text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  border:1px solid black;
+  margin-left: 25px;
+}
+
+ul li:first-child {
+  margin-left: 0;
+}
+
+ul li a {
+  display: block;
+  padding: 12px 25px;
+  color: black;
+  text-decoration: none;
+}
