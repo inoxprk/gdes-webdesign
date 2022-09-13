@@ -71,7 +71,7 @@ p, a, li {
   content: "";
   margin-left: 25px;
   display: block;
-  height: 1px;
+  height: 1.2px;
   width: 0;
   background-color: black;
   transition: width 0.2s;

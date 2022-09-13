@@ -1,18 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@700&display=swap');
+
 * {
   margin:0;
   padding:0;
+  border: 1px dotted rgba(255, 255, 255, 0.5);
 }
 
 body {
-  background-color: rgb(255, 205, 193);
+  background-color: black;
 }
 ul {
   list-style: none;
 }
+.menu {
+  position: sticky;
+  top:0;
+  z-index: 9999;
+  border-bottom: 1px solid white;
+}
 
+.menu ul {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin:0 auto;
+  padding: 10px 0;
+}
 
+.menu ul li {
+  margin-left:20px;
+  text-align: center;
+}
+.menu ul li:first-child {
+  margin-left: 0;
+}
 
+.menu ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+}
+
+/* Sushi title */
+
+.maintitlebox {
+  width: 80%;
+  margin: 100px auto 50px;
+  position: relative;
+}
+
+.maintitlebox .sushititle {
+  font-family: 'Noto Serif Georgian', serif;
+  font-size: 7em;
+  color:#fff;
+}
+
+.maintitlebox .maintextbox {
+  width: 60%;
+}
+.maintitlebox .maintextbox h1 {
+  color:#fff;
+}
+
+.maintitlebox .maintextbox p {
+  color:#fff;
+  margin-top:20px;
+}
+
+.maintitlebox .maintextbox a {
+  display: inline-block;
+  text-decoration: none;
+  color:#fff;
+  border: 1px solid #fff;
+  padding:10px 20px;
+  margin:20px 0;
+}
+.maintitlebox .sushi {
+  position: absolute;
+  top:55px;
+  left:62.5%;
+}
+
+.maintitlebox .sushi img {
+  position: absolute;
+  width: 400px;
+}
+
+.sushiexplore {
+  margin-top:10px;
+}
+
+.sushiexplore h2 { 
+  text-align: center;
+  padding: 10px;
+  margin: 50px auto;
+  color:white;
+  width: 60%;
+  font-size: 2em;
+}
+
+.sushiexplore .container {
+  background-color: black;
+  padding:20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sushiexplore ul {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.sushiexplore ul li {
+  border: 2px solid white;
+  margin: 20px auto;
+  width: 40%;
+  height: 340px;
+}
+
+.sushiexplore ul li img {
+  margin-top: 15px;
+  width: 70%;
+}
+
+.sushiexplore ul li:nth-child(4) img {
+  width: 60%;
+  height: 35%;
+  object-fit: cover;
+}
+.sushiexplore ul li .sushidescription {}
+
+.sushidescription marquee {
+  margin-top: 15px;
+  width: 30%;
+  color:white;
+  border-bottom: 1px solid white;
+}
+
+.sushidescription marquee h3 {
+}
 /* Temporary */
 img {
   width: 50px;
+}
+
+.sushidescription p {
+  margin: 15px 0;
+  color:white;
 }
