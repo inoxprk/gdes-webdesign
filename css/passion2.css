@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Secular+One&display=swap');
+
+* {
+  margin:0;
+  padding: 0;
+}
+
+body {
+  background: url('../images/redpatternbg.png');
+}
+
+ul {
+  list-style: none;
+}
+h1, h2, h3 {
+  font-family: 'Secular One', sans-serif;
+}
+p, a, li {
+  font-family: 'Figtree', sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  color:#000
+}
+
+:nth-child(0) { --nth-child: 1}
+:nth-child(1) { --nth-child: 2}
+:nth-child(2) { --nth-child: 3}
+:nth-child(3) { --nth-child: 4}
+:nth-child(4) { --nth-child: 5}
+:nth-child(5) { --nth-child: 6}
+:nth-child(6) { --nth-child: 7}
+:nth-child(7) { --nth-child: 8}
+:nth-child(8) { --nth-child: 9}
+:nth-child(9) { --nth-child: 10}
+:nth-child(10) { --nth-child: 11}
+:nth-child(11) { --nth-child: 12}
+:nth-child(12) { --nth-child: 13}
+
+.menu {
+  padding-left: 20px;
+  position: fixed;
+  top:0;
+  bottom:0;
+  display: flex;
+  align-items: center;
+  z-index: 9999;
+}
+.menu::after {
+  content: "";
+  display: block;
+  position:absolute;
+  left: 225px;
+  width: 1px;
+  height: 100%;
+  background-color: black;
+
+}
+
+.menu ul {
+}
+.menu ul li {
+  display: block;
+  transition: margin-left 0.2s;
+}
+.menu ul li:hover {
+  margin-left:10px;
+  transition: margin-left 0.2s;
+}
+.menu ul li::after {
+  content: "";
+  margin-left: 25px;
+  display: block;
+  height: 1px;
+  width: 0;
+  background-color: black;
+  transition: width 0.2s;
+} 
+.menu ul li:hover::after {
+  width: 60px;
+  transition: width 0.2s;
+} 
+
+.menu ul li a {
+  /* border:1px solid black; */
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top:10px;
+}
+
+.maintitlebox {
+  position: relative;
+  top:8vh;
+  height: 21vw;
+  padding-bottom: 20%;
+  margin-left: 10%;
+}
+
+/* susih intro text */
+.maintitlebox .maintextbox {
+  margin-left: 12%;
+}
+.maintitlebox .maintextbox h1 {
+  font-size: 3em;
+  position: relative;
+}
+.maintitlebox .maintextbox h1::before {
+  content: "";
+  height: 4px;
+  width: 100px;
+  background-color: #000;
+  position: absolute;
+  top:1.5em;
+}
+.maintitlebox .maintextbox p {
+  margin-top:30px;
+  line-height: 1.6em;
+  width: 35%;
+}
+.maintitlebox .maintextbox a{
+  border: 2px solid black;
+  text-align: center;
+  box-sizing: content-box;
+  width: 170px;
+  padding: 10px 10px;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  line-height: 1.3em;
+  transition: background-color .5s, color .2s;
+}
+
+.maintitlebox .maintextbox a:hover {
+  color: #fff;
+  background-color: #000;
+  transition: .2s;
+}
+
+/* Sushi title */
+
+.maintitlebox .sushititle {
+  position: relative;
+  height: 100%;
+  left:-8%;
+}
+
+.maintitlebox .sushititle img {
+  position: absolute;
+  top:0;
+  bottom:0;
+  margin: auto 0;
+  display: inline-block;
+  height: 70%;
+  margin-left: calc(var(--nth-child)*10%);
+}
+
+/* Sushi parts! */
+
+.maintitlebox .sushi {
+ width: 45%;
+ position: absolute;
+ top:15%;
+ transform: translateY(-25%);
+ left: 43%;
+}
+
+.maintitlebox .sushi img {
+  width: 100%;
+  position: absolute;
+  transform: translateY(-2000px);
+  animation: sushifall .5s cubic-bezier(0.175, 0.885, 0.32, 1.15) calc(var(--nth-child)*0.175s);
+  animation-fill-mode: forwards;
+}
+
+@keyframes sushifall {
+  from {transform: translateY(-2000px)}
+  to {transform: translateY(0)}
+}
+
+
+/* sushi explore */
+
+.sushiexplore {
+  margin-top:15%;
+  background-color: rgb(255, 241, 241);
+  padding: 50px 0;
+}
+
+.sushiexplore .container {
+  /* border: 1px solid black; */
+  width: 76%;
+  margin:0 auto;
+}
+
+.sushiexplore h2 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2em;
+}
+
+.sushiexplore ul {
+ 
+}
+
+.sushiexplore ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.sushiexplore ul li > * {
+  /* border:1px solid purple; */
+}
+
+.sushiexplore ul li .sushidescription {
+  padding-left:50px;
+  width: 30%;
+}
+.sushidescription h3 {}
+.sushidescription p {
+
+  margin-top:15px;
+  line-height: 1.6em;
+}
+
+.sushiexplore ul li img {
+  width: 25%;
+  height: 200px;
+  object-fit: cover;
+}

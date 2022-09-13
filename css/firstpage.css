@@ -1,0 +1,25 @@
+* {
+  margin:0;
+  padding:0;
+}
+.content {
+  color:white;
+  background-color: royalblue;
+  margin:20px;
+  border: 15px solid orange;
+  width: 50vw;
+  height: 50vh;
+
+}
+
+.border {
+  color:white;
+  background-color: royalblue;
+  margin:20px;
+  border: 15px solid orange;
+  width: 50vw;
+  height: 50vh;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  font-size: 5em;
+}
