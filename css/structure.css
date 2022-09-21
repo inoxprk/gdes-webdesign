@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 2300px;
+  padding: 50px;
+}
+.door {
+  border-left: 2px solid black;
+  border-right: 3px solid black;
+  background-color: #fff;
+  z-index: 999;
+}
+.doorh {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.ramz {
+  margin: 0 auto;
+  border: 2px solid black;
+  width: 1700px;
+  height: 1400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* LIVINGROOM */
+.ramz .livingroom {
+  border: 2px solid black;
+  height: 95%;
+  width: 40%;
+  margin:1.5%;
+  position: relative;
+}
+
+.ramz .livingroom .door {
+  position: absolute;
+top:100%;
+  left:40%;
+  width: 32%;
+  height: 2.92%;
+}
+
+.ramz .otherspace {
+  /* border: 1px solid black; */
+  height: 95%;
+  width: 57%;
+  margin-right:1.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.ramz .otherspace .rooms {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* ROOMS A & B */
+.ramz .otherspace .rooms > div {
+  border: 2px solid black;
+  width: 48.5%;
+  height: 100%;
+  position: relative;
+}
+
+.ramz .otherspace .rooms .roomb {
+  margin-left: 3%;
+}
+
+.ramz .otherspace .rooms > div .door {
+  height: 4.4%;
+  width: 43%;
+  position: absolute;
+  bottom: -4.4%;
+}
+.ramz .otherspace .rooms .rooma .door {
+  left:45%;
+}
+.ramz .otherspace .rooms .roomb .door {
+  right:45%;
+}
+.ramz .otherspace .hallway {
+  background-color: #fff;
+  border-left: none;
+  width: 102.9%;
+  height: 18%;
+  margin-top: 2.9%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* HALLWAY */
+.ramz .otherspace .hallway .hall {
+  border: 2px solid black;
+  background-color: #fff;
+  border-left: none;
+  width: 78.9%;
+  height: 100%;
+}
+/* CLOSET 1 */
+.ramz .otherspace .hallway .closet1 {
+  border: 2px solid black;
+  margin-left: 3.2%;
+  width: 18%;
+  position: relative;
+}
+
+.ramz .otherspace .hallway .closet1 .doorh {
+  position: absolute;
+  bottom:0;
+  top:0;
+  right: 100.5%;
+  background-color: #fff;
+  margin:auto 0;
+  width: 20%;
+  height: 85%;
+}
+.ramz .otherspace .lowerrooms {
+  margin-top: 3%;
+  height: 26.5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.ramz .otherspace .lowerrooms > div{
+  border:2px solid black;
+  margin-left:3%;
+}
+.ramz .otherspace .lowerrooms > div:nth-child(1) {
+  margin-left: 0;
+}
+.ramz .otherspace .lowerrooms .boilercloset {
+  border:none;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+/* BOILER & CLOSET */
+.ramz .otherspace .lowerrooms .boilercloset > div {
+  border: 2px solid black;
+  height: 46%;
+  position: relative;
+}
+.ramz .otherspace .lowerrooms .boilercloset .closet2 .door {
+  position: absolute;
+  bottom:100%;
+  left:0;
+  right:0;
+  height: 23%;
+  width: 80%;
+  margin: 0 auto;
+}
+.ramz .otherspace .lowerrooms .boilercloset .boiler {
+  margin-top:12%;
+}
+.ramz .otherspace .lowerrooms .boilercloset .boiler .doorh {
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:100%;
+  margin: auto 0;
+  height: 80%;
+  width: 16%;
+}
+
+/* SINK */
+.ramz .otherspace .lowerrooms .sink {
+  width: 30%;
+  position: relative;
+}
+.ramz .otherspace .lowerrooms .sink .door {
+  position: absolute;
+  left:0;
+  right:0;
+  bottom:100%;
+  margin: 0 auto;
+  width: 90%;
+  height: 10.5%;
+  
+}
+
+/* RESTROOM */
+.ramz .otherspace .lowerrooms .restroom {
+  width: 44%;
+  position: relative;
+}
+.ramz .otherspace .lowerrooms .restroom .doorh {
+  position: absolute;
+  top:10%;
+  right:100%;
+  width: 7.9%;
+  height: 50%;
+}
+
+.furniture {
+  position: absolute;
+  border: 2px solid black;
+  margin:0;
+}
+
+/* Livingroom Furnitures */
+.furniture.livingroom.a {
+  position: absolute;
+  margin:0;
+  width: 35%;
+  height: 7%;  
+  top:0;
+  left:30%;
+}
+.furniture.livingroom.b {
+  position: absolute;
+  margin:0;
+  width: 25%;
+  height: 3%;  
+  top:0;
+  left:5%;
+}
+.furniture.livingroom.c {
+  position: absolute;
+  border-radius: 40%;
+  margin:0;
+  width: 12%;
+  height: 5%;  
+  top:8%;
+  left:35%;
+}
+.furniture.livingroom.d {
+  position: absolute;
+  margin:0;
+  width: 20%;
+  height: 9%;  
+  top:9%;
+  left:0;
+}
+.furniture.livingroom.e {
+  position: absolute;
+  margin:0;
+  width: 20%;
+  height: 16%;  
+  top:18%;
+  left:0;
+}
+.furniture.livingroom.f {
+  position: absolute;
+  margin:0;
+  width: 60%;
+  height: 12%;  
+  top:45%;
+  left:0;
+}
+.furniture.livingroom.g {
+  background: #fff;
+  position: absolute;
+  border-right: none;
+  margin:0;
+  width: 25%;
+  height: 40%;  
+  top:45%;
+  left:0;
+}
+.furniture.livingroom.h {
+  border:none;
+  border-right:2px solid black;
+  position: absolute;
+  margin:0;
+  width: 25%;
+  height: 28%;  
+  top:56.9%;
+  left:0;
+}
+
+.furniture.livingroom.i {
+  position: absolute;
+  margin:0;
+  width: 25%;
+  height: 15%;  
+  top:85%;
+  left:0;
+}
+
+.furniture.livingroom.j {
+  position: absolute;
+  margin:0;
+  width: 20%;
+  height: 15%;  
+  top:18%;
+  left:35%;
+}
+
+/* Room A & B Furnitures */
+
+/* Sink Furnitures */
+
+/* Restroom Furnitures */
