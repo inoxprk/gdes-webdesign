@@ -60,6 +60,18 @@ body {
   right:0;
 }
 
+#mainnav li:nth-child(4) {
+  left:0;
+  top:70%;
+
+}
+
+#mainnav li:nth-child(5) {
+  right: 5%;
+  top:67%;
+
+}
+
 #mainnav li img {
   width: 100%;
 }
