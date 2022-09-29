@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: darkolivegreen;
+}
+
+.flex {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  background: azure;
+  border-radius: 50%;
+  animation: pulse 2s infinite alternate ease-out;
+}
+
+.square {
+  width: 300px;
+  height: 300px;
+  background: azure;
+  animation: spin 4s infinite linear;
+}
+
+.mover {
+  width: 200px;
+  height: 50px;
+  background: azure;
+  position: fixed;
+  bottom:0;
+  left: 0;
+  animation: moves 4s infinite linear;
+}
+.shell {
+  animation: moves 5s infinite alternate;
+}
+.hard-boiled-egg {
+  background: azure;
+  position:fixed;
+  width: 50px;
+  height: 100px;
+  border-radius: 50% 50% 30% 30%; 
+  left:0;
+  top:0;
+  animation:  pulse 2s infinite alternate, egg-move 5s infinite alternate ;
+}
+
+@keyframes pulse {
+  0% {
+    background: azure;
+    transform: scale(1);
+  }
+  50% {
+    background: tomato;
+    transform: scale(2);
+  }
+  100% {
+    background: royalblue;
+    transform: scale(1);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes moves {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes egg-move {
+  0% {
+    transform: translate(0,0);
+  }
+  100% {
+    transform: translate(90vw,90vh);
+  }
+}
