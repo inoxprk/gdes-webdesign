@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flip-card:nth-child(0) { --nth-child: 1}
+.flip-card:nth-child(1) { --nth-child: 2}
+.flip-card:nth-child(2) { --nth-child: 3}
+.flip-card:nth-child(3) { --nth-child: 4}
+.flip-card:nth-child(4) { --nth-child: 5}
+.flip-card:nth-child(5) { --nth-child: 6}
+.flip-card:nth-child(6) { --nth-child: 7}
+.flip-card:nth-child(7) { --nth-child: 8}
+.flip-card:nth-child(8) { --nth-child: 9}
+.flip-card:nth-child(9) { --nth-child: 10}
+.flip-card:nth-child(10) { --nth-child: 11}
+.flip-card:nth-child(11) { --nth-child: 12}
+.flip-card:nth-child(12) { --nth-child: 13}
+.flip-card:nth-child(13) { --nth-child: 14}
+.flip-card:nth-child(14) { --nth-child: 15}
+.flip-card:nth-child(15) { --nth-child: 16}
+.flip-card:nth-child(16) { --nth-child: 17}
+.flip-card:nth-child(17) { --nth-child: 18}
+.flip-card:nth-child(18) { --nth-child: 19}
+.flip-card:nth-child(19) { --nth-child: 20}
+.flip-card:nth-child(20) { --nth-child: 21}
+.flip-card:nth-child(21) { --nth-child: 22}
+.flip-card:nth-child(22) { --nth-child: 23}
+.flip-card:nth-child(23) { --nth-child: 24}
+.flip-card:nth-child(24) { --nth-child: 25}
+.flip-card:nth-child(25) { --nth-child: 26}
+.flip-card:nth-child(26) { --nth-child: 27}
+.flip-card:nth-child(27) { --nth-child: 28}
+.flip-card:nth-child(28) { --nth-child: 29}
+.flip-card:nth-child(29) { --nth-child: 30}
+.flip-card:nth-child(30) { --nth-child: 31}
+.flip-card:nth-child(31) { --nth-child: 32}
+.flip-card:nth-child(32) { --nth-child: 33}
+.flip-card:nth-child(33) { --nth-child: 34}
+.flip-card:nth-child(34) { --nth-child: 35}
+.flip-card:nth-child(35) { --nth-child: 36}
+.flip-card:nth-child(36) { --nth-child: 37}
+.flip-card:nth-child(37) { --nth-child: 38}
+.flip-card:nth-child(38) { --nth-child: 39}
+.flip-card:nth-child(39) { --nth-child: 40}
+.flip-card:nth-child(40) { --nth-child: 41}
+.flip-card:nth-child(41) { --nth-child: 42}
+.flip-card:nth-child(42) { --nth-child: 43}
+.flip-card:nth-child(43) { --nth-child: 44}
+.flip-card:nth-child(44) { --nth-child: 45}
+.flip-card:nth-child(45) { --nth-child: 46}
+.flip-card:nth-child(46) { --nth-child: 47}
+.flip-card:nth-child(47) { --nth-child: 48}
+.flip-card:nth-child(48) { --nth-child: 49}
+.flip-card:nth-child(49) { --nth-child: 50}
+.flip-card:nth-child(50) { --nth-child: 51}
+.flip-card:nth-child(51) { --nth-child: 52}
+.flip-card:nth-child(52) { --nth-child: 53}
+.flip-card:nth-child(53) { --nth-child: 54}
+.flip-card:nth-child(54) { --nth-child: 55}
+.flip-card:nth-child(55) { --nth-child: 56}
+.flip-card:nth-child(56) { --nth-child: 57}
+.flip-card:nth-child(57) { --nth-child: 58}
+.flip-card:nth-child(58) { --nth-child: 59}
+.flip-card:nth-child(59) { --nth-child: 60}
+.flip-card:nth-child(60) { --nth-child: 61}
+.flip-card:nth-child(61) { --nth-child: 62}
+.flip-card:nth-child(62) { --nth-child: 63}
+.flip-card:nth-child(63) { --nth-child: 64}
+.flip-card:nth-child(64) { --nth-child: 65}
+.flip-card:nth-child(65) { --nth-child: 66}
+.flip-card:nth-child(66) { --nth-child: 67}
+.flip-card:nth-child(67) { --nth-child: 68}
+.flip-card:nth-child(68) { --nth-child: 69}
+.flip-card:nth-child(69) { --nth-child: 70}
+.flip-card:nth-child(70) { --nth-child: 71}
+.flip-card:nth-child(71) { --nth-child: 72}
+.flip-card:nth-child(72) { --nth-child: 73}
+.flip-card:nth-child(73) { --nth-child: 74}
+.flip-card:nth-child(74) { --nth-child: 75}
+.flip-card:nth-child(75) { --nth-child: 76}
+.flip-card:nth-child(76) { --nth-child: 77}
+.flip-card:nth-child(77) { --nth-child: 78}
+.flip-card:nth-child(78) { --nth-child: 79}
+.flip-card:nth-child(79) { --nth-child: 80}
+.flip-card:nth-child(80) { --nth-child: 81}
+.flip-card:nth-child(81) { --nth-child: 82}
+.flip-card:nth-child(82) { --nth-child: 83}
+.flip-card:nth-child(83) { --nth-child: 84}
+.flip-card:nth-child(84) { --nth-child: 85}
+.flip-card:nth-child(85) { --nth-child: 86}
+.flip-card:nth-child(86) { --nth-child: 87}
+.flip-card:nth-child(87) { --nth-child: 88}
+.flip-card:nth-child(88) { --nth-child: 89}
+.flip-card:nth-child(89) { --nth-child: 90}
+.flip-card:nth-child(90) { --nth-child: 91}
+.flip-card:nth-child(91) { --nth-child: 92}
+.flip-card:nth-child(92) { --nth-child: 93}
+.flip-card:nth-child(93) { --nth-child: 94}
+.flip-card:nth-child(94) { --nth-child: 95}
+.flip-card:nth-child(95) { --nth-child: 96}
+.flip-card:nth-child(96) { --nth-child: 97}
+.flip-card:nth-child(97) { --nth-child: 98}
+.flip-card:nth-child(98) { --nth-child: 99}
+.flip-card:nth-child(99) { --nth-child: 100}
+.flip-card:nth-child(100) { --nth-child: 101}
+.flip-card:nth-child(101) { --nth-child: 102}
+.flip-card:nth-child(102) { --nth-child: 103}
+.flip-card:nth-child(103) { --nth-child: 104}
+.flip-card:nth-child(104) { --nth-child: 105}
+.flip-card:nth-child(105) { --nth-child: 106}
+.flip-card:nth-child(106) { --nth-child: 107}
+.flip-card:nth-child(107) { --nth-child: 108}
+.flip-card:nth-child(108) { --nth-child: 109}
+.flip-card:nth-child(109) { --nth-child: 110}
+.flip-card:nth-child(110) { --nth-child: 111}
+.flip-card:nth-child(111) { --nth-child: 112}
+.flip-card:nth-child(112) { --nth-child: 113}
+.flip-card:nth-child(113) { --nth-child: 114}
+.flip-card:nth-child(114) { --nth-child: 115}
+.flip-card:nth-child(115) { --nth-child: 116}
+.flip-card:nth-child(116) { --nth-child: 117}
+.flip-card:nth-child(117) { --nth-child: 118}
+.flip-card:nth-child(118) { --nth-child: 119}
+.flip-card:nth-child(119) { --nth-child: 120}
+.flip-card:nth-child(120) { --nth-child: 121}
+.flip-card:nth-child(121) { --nth-child: 122}
+.flip-card:nth-child(122) { --nth-child: 123}
+.flip-card:nth-child(123) { --nth-child: 124}
+.flip-card:nth-child(124) { --nth-child: 125}
+.flip-card:nth-child(125) { --nth-child: 126}
+.flip-card:nth-child(126) { --nth-child: 127}
+.flip-card:nth-child(127) { --nth-child: 128}
+.flip-card:nth-child(128) { --nth-child: 129}
+.flip-card:nth-child(129) { --nth-child: 130}
+.flip-card:nth-child(130) { --nth-child: 131}
+.flip-card:nth-child(131) { --nth-child: 132}
+.flip-card:nth-child(132) { --nth-child: 133}
+.flip-card:nth-child(133) { --nth-child: 134}
+.flip-card:nth-child(134) { --nth-child: 135}
+.flip-card:nth-child(135) { --nth-child: 136}
+.flip-card:nth-child(136) { --nth-child: 137}
+.flip-card:nth-child(137) { --nth-child: 138}
+.flip-card:nth-child(138) { --nth-child: 139}
+.flip-card:nth-child(139) { --nth-child: 140}
+.flip-card:nth-child(140) { --nth-child: 141}
+.flip-card:nth-child(141) { --nth-child: 142}
+.flip-card:nth-child(142) { --nth-child: 143}
+.flip-card:nth-child(143) { --nth-child: 144}
+.flip-card:nth-child(144) { --nth-child: 145}
+.flip-card:nth-child(145) { --nth-child: 146}
+.flip-card:nth-child(146) { --nth-child: 147}
+.flip-card:nth-child(147) { --nth-child: 148}
+.flip-card:nth-child(148) { --nth-child: 149}
+.flip-card:nth-child(149) { --nth-child: 150}
+.flip-card:nth-child(150) { --nth-child: 151}
+.flip-card:nth-child(151) { --nth-child: 152}
+.flip-card:nth-child(152) { --nth-child: 153}
+.flip-card:nth-child(153) { --nth-child: 154}
+.flip-card:nth-child(154) { --nth-child: 155}
+.flip-card:nth-child(155) { --nth-child: 156}
+.flip-card:nth-child(156) { --nth-child: 157}
+.flip-card:nth-child(157) { --nth-child: 158}
+.flip-card:nth-child(158) { --nth-child: 159}
+.flip-card:nth-child(159) { --nth-child: 160}
+.flip-card:nth-child(160) { --nth-child: 161}
+.flip-card:nth-child(161) { --nth-child: 162}
+.flip-card:nth-child(162) { --nth-child: 163}
+.flip-card:nth-child(163) { --nth-child: 164}
+.flip-card:nth-child(164) { --nth-child: 165}
+.flip-card:nth-child(165) { --nth-child: 166}
+.flip-card:nth-child(166) { --nth-child: 167}
+.flip-card:nth-child(167) { --nth-child: 168}
+.flip-card:nth-child(168) { --nth-child: 169}
+.flip-card:nth-child(169) { --nth-child: 170}
+.flip-card:nth-child(170) { --nth-child: 171}
+.flip-card:nth-child(171) { --nth-child: 172}
+.flip-card:nth-child(172) { --nth-child: 173}
+.flip-card:nth-child(173) { --nth-child: 174}
+.flip-card:nth-child(174) { --nth-child: 175}
+.flip-card:nth-child(175) { --nth-child: 176}
+.flip-card:nth-child(176) { --nth-child: 177}
+.flip-card:nth-child(177) { --nth-child: 178}
+.flip-card:nth-child(178) { --nth-child: 179}
+.flip-card:nth-child(179) { --nth-child: 180}
+.flip-card:nth-child(180) { --nth-child: 181}
+.flip-card:nth-child(181) { --nth-child: 182}
+.flip-card:nth-child(182) { --nth-child: 183}
+.flip-card:nth-child(183) { --nth-child: 184}
+.flip-card:nth-child(184) { --nth-child: 185}
+.flip-card:nth-child(185) { --nth-child: 186}
+.flip-card:nth-child(186) { --nth-child: 187}
+.flip-card:nth-child(187) { --nth-child: 188}
+.flip-card:nth-child(188) { --nth-child: 189}
+.flip-card:nth-child(189) { --nth-child: 190}
+.flip-card:nth-child(190) { --nth-child: 191}
+.flip-card:nth-child(191) { --nth-child: 192}
+.flip-card:nth-child(192) { --nth-child: 193}
+.flip-card:nth-child(193) { --nth-child: 194}
+.flip-card:nth-child(194) { --nth-child: 195}
+.flip-card:nth-child(195) { --nth-child: 196}
+.flip-card:nth-child(196) { --nth-child: 197}
+.flip-card:nth-child(197) { --nth-child: 198}
+.flip-card:nth-child(198) { --nth-child: 199}
+.flip-card:nth-child(199) { --nth-child: 200}
+.flip-card:nth-child(200) { --nth-child: 201}
+
+body {
+  background-color: royalblue;
+  animation: colorchange3 10s infinite alternate;
+}
+#moonsun{
+  position: fixed;
+  top:20%;
+  left:0;
+  right:0;
+  margin:0 auto;
+  height: 200vh;
+  z-index: 100;
+  animation: rotate 200s infinite linear;
+  fill:red;
+}
+.screensaver {
+  display: flex;
+  flex-wrap:wrap;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.screensaver.v .flip-card {
+  background-color: transparent;
+  width: 5%;
+  height: 10%;
+  perspective: 1000px;
+}
+
+.screensaver.v .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+/* .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+} */
+
+.screensaver.v .flip-card-front,
+.screensaver.v .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.screensaver.v .flip-card-front {
+  background-color: #bbb;
+  color: black;
+  animation: flip-front 6s linear calc(var(--nth-child)*0.02s) infinite alternate, colorchange1 10s calc(var(--nth-child)*0.04s) infinite alternate;
+  animation-fill-mode: forwards;
+}
+
+.screensaver.v .flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  animation: flip-back 6s linear calc(var(--nth-child)*0.02s) infinite alternate, colorchange2 10s calc(var(--nth-child)*0.04s) infinite alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes flip-front {
+  0% {
+    transform: rotateY(0);
+  }
+
+  /* 15% {
+    transform: rotateY(0);
+  }
+  85% {
+    transform: rotateY(180deg);
+  } */
+  100% {
+      transform: rotateY(180deg);
+  }
+}
+
+@keyframes flip-back {
+  0% {
+    transform: rotateY(180deg);
+  }
+  /* 15% {
+    transform: rotateY(180deg);
+  }
+  85% {
+    transform: rotateY(0);
+  } */
+  100% {
+      transform: rotateY(0);
+  }
+}
+
+@keyframes colorchange1 {
+  0% {
+    background-color: red;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+
+@keyframes colorchange2 {
+  0% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+@keyframes colorchange3 {
+  0% {
+    background-color: orange;
+  }
+  100% {
+    background-color: teal;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
