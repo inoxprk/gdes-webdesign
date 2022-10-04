@@ -52,7 +52,7 @@ body {
 #mainnav li:nth-child(2) {
   left:0;
   right:0;
-  margin: 15% auto;
+  margin: 7% auto;
 }
 
 #mainnav li:nth-child(3) {
@@ -69,6 +69,12 @@ body {
 #mainnav li:nth-child(5) {
   right: 5%;
   top:67%;
+
+}
+
+#mainnav li:nth-child(6) {
+  right: 35%;
+  top:100%;
 
 }
 

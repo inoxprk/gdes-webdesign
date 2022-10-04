@@ -258,14 +258,14 @@ body {
 }
 
 .screensaver.v .flip-card-front {
-  background-color: #bbb;
+  background-color: #333;
   color: black;
   animation: flip-front 6s linear calc(var(--nth-child)*0.02s) infinite alternate, colorchange1 10s calc(var(--nth-child)*0.04s) infinite alternate;
   animation-fill-mode: forwards;
 }
 
 .screensaver.v .flip-card-back {
-  background-color: #2980b9;
+  background-color: #000;
   color: white;
   transform: rotateY(180deg);
   animation: flip-back 6s linear calc(var(--nth-child)*0.02s) infinite alternate, colorchange2 10s calc(var(--nth-child)*0.04s) infinite alternate;
