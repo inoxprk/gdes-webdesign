@@ -75,6 +75,11 @@ body {
 #mainnav li:nth-child(6) {
   right: 35%;
   top:100%;
+}
+
+#mainnav li:nth-child(7) {
+  left: 3%;
+  top:130%;
 
 }
 
