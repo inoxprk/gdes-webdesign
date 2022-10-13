@@ -1,3 +1,78 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  margin: 20px;
+  background-color: rgb(136, 136, 80);
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: blanchedalmond;
+}
+
+main {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+main nav,
+main div {
+  padding: 10px;
+  background-color: blanchedalmond;
+}
+
+nav,
+.details {
+  width: 25%;
+}
+
+.center {
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  background-color: blanchedalmond;
+  padding: 10px;
+}
+
+@media screen and (max-width:800px) {
+  body {
+    background-color: rgb(229, 173, 112);
+  }
+
+  main {
+    flex-wrap: wrap;
+  }
+
+  nav, .center, .details {
+    width: 100%;
+  }
+  
+}
+@media screen and (min-width:800px) {
+    body {
+      background-color: rgb(229,173,112);
+    }
+
+  main {
+    flex-wrap: wrap;
+  }
+  nav, .center, .details {
+    
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  body {
+    background-color: rgb(172,138,189);
+    font-size: 200%;
+  }
+}
