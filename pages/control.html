@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inho Park | Control</title>
+  <link rel="stylesheet" href="../css/control.css">
+  <script src="../js/jquery-3.6.1.min.js"></script>
+  <script src="../js/jquery-ui.js"></script>
+  <script src="../js/control.js" defer></script>
+</head>
+
+<body>
+  <canvas id="canvas" width="1500" height="400"></canvas>
+    <div class="remote">
+      <div id="minimize">
+        <button onclick="openMenu()">expand menu</button>
+      </div>
+      <button id="makeItBigger" onclick="makeItBigger()">make it big!!</button>
+      <button id="makeItRound" onclick="makeItRound()">make it round</button>
+      <button id="rainbow" onclick="rainbow()">rainbow!</button>
+      <button id="dragonball" onclick="dragonball()">add satellites</button>
+      <button id="draggable" onclick="makeItDraggable()">make it draggable</button>
+      <button id="darkbc" onclick="changeBackground()">dark mode</button>
+      <button id="duplicateDot" onclick="duplicateDot()">add a dot</button>
+      <button id="removeDots" onclick="removeDots()">remove added dots</button>
+      <button id="makeItRain" onclick="makeItRain()">make it rain</button>
+      <button id="blurry" onclick="makeItBlurry()">make it blurry</button>
+    </div>
+
+  </div>
+
+  <div class="dot" id="originalDot">
+    <audio autoplay loop muted>
+      <source src="../sound/rainfall.mp3" type="audio/mpeg">
+    </audio>
+    <img class="umbrella" src="../images/umbrella.svg" alt="">
+    <div class="background"></div>
+    <div class='circle-orbit-container'>
+      <div id='inner-orbit'>
+        <div class='inner-orbit-cirlces'></div>
+      </div>
+      <div id='middle-orbit'>
+        <div class='middle-orbit-cirlces'></div>
+      </div>
+      <div id='outer-orbit'>
+        <div class='outer-orbit-cirlces'></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

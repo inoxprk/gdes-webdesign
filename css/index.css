@@ -80,9 +80,26 @@ body {
 #mainnav li:nth-child(7) {
   left: 3%;
   top:130%;
-
 }
 
+#mainnav li:nth-child(8)  {
+  background-color: royalblue;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border:1px solid;
+  right: 8%;
+  top:145%;
+}
+#mainnav li:nth-child(8) a {
+  color:white;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  padding:100px;
+}
 #mainnav li img {
   width: 100%;
 }
