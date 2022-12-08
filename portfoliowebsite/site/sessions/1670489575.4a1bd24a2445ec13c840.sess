@@ -1,0 +1,2 @@
+fcfdbeddda34add9227934eadd8269083cc4e5b4273dc4575b10ec26937e2f67
+a:7:{s:9:"startTime";i:1670482375;s:10:"expiryTime";i:1670489575;s:8:"duration";i:7200;s:7:"timeout";i:1800;s:12:"lastActivity";i:1670482500;s:9:"renewable";b:1;s:4:"data";a:2:{s:10:"kirby.csrf";s:64:"a97d933f8242279ef9a0e6fa03c051b2d29e3b578ffebe36e9cbfa5bac0f66f3";s:12:"kirby.userId";s:8:"MagsWvXW";}}

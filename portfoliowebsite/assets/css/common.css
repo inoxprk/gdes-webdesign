@@ -1,0 +1,27 @@
+/* common */
+body {
+  padding-top:67.8px !important;
+}  
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.cfixed:after,
+.container:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.blind {
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+

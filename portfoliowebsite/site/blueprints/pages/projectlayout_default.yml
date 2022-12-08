@@ -1,0 +1,27 @@
+title: Project Layout Default
+options: fields/templates
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        fields: 
+          thumbnail:
+            type: files
+            multiple: false
+            required: true
+          headline:
+            type: text
+          subheadline:
+            type: text
+          contents:
+            type: blocks
+
+  - width: 1/2
+    sections:
+      images:
+        type: files  
+        layout: cards
+        image: 
+          cover: true

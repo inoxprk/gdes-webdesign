@@ -1,0 +1,114 @@
+/* -----------------------------------------------------mobile */
+
+.other-works-section {
+  margin-top: 73px;
+  margin-bottom:73px;
+}
+
+/* ------------------------------------ project item*/
+.other-works-section .other-works-projects li {
+  width: 100%;
+  margin-top:5px;
+}
+.other-works-section .other-works-projects li:nth-child(1) {
+  margin-top:0;
+}
+
+.other-works-section .other-works-projects li a {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000;
+}
+
+/* ------------------------------------ project item on hover*/
+.other-works-section .other-works-projects li a:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  content: "";
+  opacity: 0;
+  transition: all 0.2s;
+}
+
+.other-works-section .other-works-projects li a:hover:before {
+  opacity: 0.5;
+}
+
+.other-works-section .other-works-projects li .info {
+  position: absolute;
+  top: 0;
+  left: 23px;
+  z-index: 20;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.other-works-section .other-works-projects li a:hover .info {
+  transform: translateY(23px);
+  opacity: 1;
+}
+
+.other-works-section .other-works-projects li .info h3 {
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700
+}
+
+.other-works-section .other-works-projects li .info span {
+  font-size: 11px;
+  color: #fff;
+}
+
+/* ------------------------------------ image width & height*/
+.other-works-section .other-works-projects li img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+}
+
+/* -----------------------------------------------------tablet */
+@media all and (min-width: 768px) {
+  .other-works-section {
+    /* margin-top: 118px; */
+  }
+
+  /* ------------------------------------ project item*/
+  .other-works-section .other-works-projects li {
+    float: left;
+    width: 33.333%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top:0;
+  }
+
+  /* ------------------------------------ project item on hover*/
+  .other-works-section .other-works-projects li .info {
+    left: 37px;
+  }
+
+  .other-works-section .other-works-projects li a:hover .info {
+    transform:translateY(37px);
+  }
+}
+
+/* -----------------------------------------------------desktop */
+@media all and (min-width: 1472px) {
+  /* ------------------------------------ */
+}

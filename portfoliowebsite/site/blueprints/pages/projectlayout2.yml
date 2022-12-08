@@ -1,0 +1,24 @@
+title: Project Layout 2
+options: fields/templates
+
+columns:
+  - width: 3/4
+    fields:
+      layout:
+        label: Layout
+        type: layout
+        layouts:
+          - "1/1"
+          - "1/2, 1/2"
+          - "1/3, 1/3, 1/3"
+
+  - width: 1/4
+    sections:
+      images:
+        type: files  
+        layout: list
+        image: 
+          ratio: 1/1
+          cover: true
+
+  

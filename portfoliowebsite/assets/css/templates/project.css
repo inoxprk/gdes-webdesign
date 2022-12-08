@@ -1,0 +1,17 @@
+.block-type-text {
+  background-color: red;
+}
+
+.block-type-image {
+  background-color: blue;
+  padding:20px;
+}
+
+.block-type-gallery ul {
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.block-type-gallery ul li {
+  width: 50%;
+}

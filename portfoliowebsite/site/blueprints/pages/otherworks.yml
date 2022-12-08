@@ -1,0 +1,14 @@
+title: Other Works
+
+sections:
+  otherworks-project-items:
+    type: pages
+    layout: cards
+    image:
+      cover: true
+    templates: 
+          - projectlayout_default
+          - projectlayout1
+          - projectlayout2
+
+    
